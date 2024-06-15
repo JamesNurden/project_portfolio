@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `James Nurden's Portfolio`,
+    siteTitleAlt: `James Nurden's Portfolio`,
+    siteHeadline: `James Nurden's Portfolio`,
+    siteUrl: `https://https://github.com/JamesNurden`,
+    siteDescription: `Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@James_Nurden`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -38,14 +38,7 @@ const config: GatsbyConfig = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
+            src: '/favicon.ico',
           },
         ],
       },
